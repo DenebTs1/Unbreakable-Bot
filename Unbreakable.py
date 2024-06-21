@@ -50,7 +50,7 @@ async def test_slash(interaction: discord.Interaction):
         color=discord.Color.from_rgb(0, 0, 0)  # Color
     )
     
-    # Envoi de l'embed en réponse à l'interaction
+    # send embed
     await interaction.response.send_message(embed=first_embed)
 
 # Lancement du bot avec le nouveau token
